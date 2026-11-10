@@ -1,0 +1,5 @@
+{
+  "data_root": "/path/to/analysis-inputs",
+  "output_root": "outputs",
+  "llm_root": "/path/to/llm-labels"
+}

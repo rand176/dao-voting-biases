@@ -1,0 +1,26 @@
+{
+  "choice_label_rows": 1645,
+  "layout": "split-proposals-and-choice-labels",
+  "numeric_candidates_for_review_by_field": {
+    "body": 268,
+    "choice": 6,
+    "choices_json": 24,
+    "title": 6
+  },
+  "policy": "contact-redacted; not anonymous",
+  "proposal_rows": 590,
+  "proposals": 590,
+  "replacements": {
+    "email": 27,
+    "phone": 2
+  },
+  "replacements_by_field": {
+    "body": {
+      "email": 27,
+      "phone": 2
+    }
+  },
+  "review_note": "Automatic detection is incomplete. Review preserved numeric candidates and text before sharing. Counts include repeated proposal text across choice rows; no removed values are stored.",
+  "rows": 1645,
+  "text_length_variables": "Retained from the original, unredacted text."
+}

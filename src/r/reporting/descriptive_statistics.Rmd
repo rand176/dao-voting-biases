@@ -1,0 +1,17 @@
+---
+title: "Supplemental descriptive analysis"
+output: html_document
+---
+
+This optional view uses the same implementation as `python run.py descriptive`.
+Set `DAO_BIAS_ROOT` and `DAO_BIAS_DATA_ROOT` before rendering.
+Optionally set `DAO_BIAS_OUTPUT_ROOT`; the default is `outputs/` inside the package.
+
+```{r}
+root <- Sys.getenv("DAO_BIAS_ROOT")
+if (!nzchar(root)) stop("Set DAO_BIAS_ROOT to the installed package")
+source(file.path(root,"src/r/runtime/context.R"))
+source(file.path(root,"src/r/runtime/init.R"))
+source(file.path(root,"src/r/reporting/descriptive.R"))
+run_descriptive_analysis(analysis_context(root))
+```
